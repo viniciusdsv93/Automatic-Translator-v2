@@ -2,10 +2,9 @@ const axios = require("axios");
 const fs = require("fs");
 
 let object = {
-	ART_SEGMENT: "Art",
-	FOOD_AND_DRINKS_SEGMENT: "Food and Drinks",
-	AUTOMOTIVE_SEGMENT: "Automotive",
-	CREATOR_CREATOR: "Creator",
+	MESSAGE: "Good afternoon",
+	OBJECT: "Food and Drinks",
+	SENTENCE: "I am studying right now",
 };
 
 async function getData(translateTo) {
