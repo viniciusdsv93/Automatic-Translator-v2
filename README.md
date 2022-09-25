@@ -1,6 +1,6 @@
 ### Tradutor Automatizado
 
-## Aplicação simples para automatizar o processo de tradução para os demais idiomas
+## Aplicação simples para automatizar o processo de tradução para diversos idiomas
 
 Para utilizar, é preciso baixar as dependências e então executar "npm start" para rodar o
 servidor em "server.js".
@@ -26,9 +26,6 @@ retorna mais "undefined".
 
 Ele retorna de forma errada se dentro da string tiver o caracter "%", e nesse caso também
 é preciso fazer a correção manualmente.
-
-Casos em que aparecem termos como "Tracks", "Collect" e "Stories App" também não devem ser
-traduzidos, e aí precisa corrigir manualmente.
 
 Acaba demorando uns 2s em cada requisição porque precisa aguardar o servidor da Google
 retornar a palavra traduzida.
